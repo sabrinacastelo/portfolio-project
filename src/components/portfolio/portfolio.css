@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    background-color: #2D0D10;
+}
+
+.portfolio {
+    display: flex;
+    margin-top: 50px;
+}
+
+.card {
+    margin-left: 100px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    width: 345px;
+    height: 450px;
+    background-image: url('https://img.freepik.com/free-photo/steak-brazillian-style_1339-8288.jpg?t=st=1726510082~exp=1726513682~hmac=49f04c050ddf658efea7c9d801a0fcae4afe805d12b9e1246615825cdf6d82a5&w=360');
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.card-2 {
+    margin-left: 10px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 450px;
+    background-image: url('https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535873.jpg?t=st=1726510379~exp=1726513979~hmac=a8f848d1ef6d70070ee82b40b494587cdbb69e684647363ac8a70f4aaf0f879e&w=360');
+    border: 1px solid #2D0D10;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.card-2:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card-2:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.txt {
+    width: 30%;
+    align-items: center;
+    justify-items: center;
+    margin-left: 50px;
+}
+
+p {
+    color: white;
+}
+
+.title {
+    font-family: 'Archivo Black';
+    font-size: 2em;
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .portfolio {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .txt {
+        width: 70%;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 25px;
+        margin-left: 78px;
+    }
+
+    .card {
+        margin-left: 82px;
+        box-sizing: border-box;
+        width: 345px;
+        height: 350px;
+        background-image: url('https://img.freepik.com/free-photo/steak-brazillian-style_1339-8288.jpg?t=st=1726510082~exp=1726513682~hmac=49f04c050ddf658efea7c9d801a0fcae4afe805d12b9e1246615825cdf6d82a5&w=360');
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(6px);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .card-2 {
+        margin-bottom: 25px;
+        margin-left: 80px;
+        box-sizing: border-box;
+        width: 350px;
+        height: 350px;
+        background-image: url('https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535873.jpg?t=st=1726510379~exp=1726513979~hmac=a8f848d1ef6d70070ee82b40b494587cdbb69e684647363ac8a70f4aaf0f879e&w=360');
+        border: 1px solid #2D0D10;
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(6px);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+    }
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.p-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.p {
+    color: #fff;
+    font-size: 2em;
+}
+
+.p-2 {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.img {
+    height: 500px;
+}
+
+.img:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.span {
+    color: #982023;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
+}
+
+/* From Uiverse.io by alexmaracinaru */
+.cta {
+    position: relative;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #982023;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    margin-right: 290px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.cta:hover:before {
+    width: 38%;
+    background: #982023;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 768px) {
+    .sessao {
+        flex-direction: column;
+        /* Colocar elementos em coluna */
+        padding: 20px;
+    }
+
+    .img {
+        margin-left: 0;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .span {
+        color: #982023;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 1.6em;
+    }
+
+    .p-text {
+        align-items: center;
+        /* Centralizar os textos */
+        text-align: center;
+    }
+
+    .p-2 {
+        color: #fff;
+        font-size: 1.05em;
+        margin-bottom: 30px;
+    }
+
+    .cta{
+        display: none;
+    }
+}
