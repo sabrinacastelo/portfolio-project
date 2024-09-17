@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <nav>
-        <img src="/src/assets/logo.png" alt="Logo" />
+        <img src="src/components/navbar/logo.png" alt="Logo" />
         <div className={`list ${isOpen ? 'open' : ''}`}>
           <ul className='ul'>
             <li><a href="/">Inicio</a></li>
