@@ -117,8 +117,11 @@ a:hover{
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
     .ul {
-        margin-top: 5px;
+        margin-top: 2%;
         display: none;
         flex-direction: column;
         position: absolute;

@@ -95,15 +95,16 @@ p {
     }
 
     .txt {
-        width: 70%;
+        width: 80%;
         align-items: center;
         justify-items: center;
         margin-bottom: 25px;
-        margin-left: 78px;
+        margin-left: 10%;
     }
 
     .card {
-        margin-left: 82px;
+        margin-left: 6%;
+        margin-bottom: 10px;
         box-sizing: border-box;
         width: 345px;
         height: 350px;
@@ -124,7 +125,7 @@ p {
 
     .card-2 {
         margin-bottom: 25px;
-        margin-left: 80px;
+        margin-left: 6%;
         box-sizing: border-box;
         width: 350px;
         height: 350px;
