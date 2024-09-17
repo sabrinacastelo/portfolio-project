@@ -19,7 +19,7 @@ function Home() {
                         </button>
 
                     </div>
-                    <img className='img' src="src/assets/churrasco.png" alt="" />
+                    <img className='img' src="/src/assets/churrasco.png" alt="" />
                 </div>
             </div>
             <Portfolio />
