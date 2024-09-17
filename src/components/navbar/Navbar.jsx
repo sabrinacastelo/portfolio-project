@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './navbar.css';
+import Logo from './logo.png';
 import { FaBars } from 'react-icons/fa'; // Ícone do menu
 import { FaTimes } from 'react-icons/fa'; // Ícone para fechar
 
@@ -13,7 +14,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <nav>
-        <img src="src/components/navbar/logo.png" alt="Logo" />
+        <img src={Logo} alt="Logo" />
         <div className={`list ${isOpen ? 'open' : ''}`}>
           <ul className='ul'>
             <li><a href="/">Inicio</a></li>

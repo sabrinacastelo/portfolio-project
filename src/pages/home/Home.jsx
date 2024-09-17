@@ -1,5 +1,6 @@
 // import React from 'react'
 import Portfolio from '../../components/portfolio/Portfolio'
+import Img from '../../assets/churrasco.png'
 import './home.css'
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
                         </button>
 
                     </div>
-                    <img className='img' src="/src/pages/home/churrasco.png" alt="" />
+                    <img className='img' src={Img} alt="" />
                 </div>
             </div>
             <Portfolio />
