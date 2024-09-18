@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+
 .sessao {
     display: flex;
     justify-content: center;
@@ -87,7 +88,6 @@
 @media screen and (max-width: 768px) {
     .sessao {
         flex-direction: column;
-        /* Colocar elementos em coluna */
         padding: 20px;
     }
 
@@ -105,7 +105,6 @@
 
     .p-text {
         align-items: center;
-        /* Centralizar os textos */
         text-align: center;
     }
 
@@ -118,4 +117,21 @@
     .cta{
         display: none;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .cta {
+        display: none;
+    }
+    .img {
+        margin-left: 0;
+        height: 260px;
+        margin-bottom: 20px;
+    }
+
+    .p{
+        font-size: 1.5em;
+    }
+
+    
 }

@@ -3,9 +3,10 @@ import './portfolio.css'
 function Portfolio() {
   return (
     <div className='portfolio'>
-      
-      <div className="card"></div>
-      <div className="card-2"></div>
+      <div className="cards">
+        <div className="card-1"></div>
+        <div className="card-2"></div>
+      </div>
       <div className="txt">
         <p className='title'>O QUE OFEREÇO?</p>
         <br />

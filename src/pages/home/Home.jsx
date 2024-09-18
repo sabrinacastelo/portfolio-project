@@ -2,6 +2,7 @@
 import Portfolio from '../../components/portfolio/Portfolio'
 import Img from '../../assets/churrasco.png'
 import './home.css'
+import About from '../../components/about/About'
 
 function Home() {
     return (
@@ -24,6 +25,7 @@ function Home() {
                 </div>
             </div>
             <Portfolio />
+            <About />
         </>
     )
 }
