@@ -3,6 +3,7 @@ import Portfolio from '../../components/portfolio/Portfolio'
 import Img from '../../assets/churrasco.png'
 import './home.css'
 import About from '../../components/about/About'
+import Carousel from '../../components/carousel/Carousel'
 
 function Home() {
     return (
@@ -25,6 +26,7 @@ function Home() {
                 </div>
             </div>
             <Portfolio />
+            <Carousel />
             <About />
         </>
     )
