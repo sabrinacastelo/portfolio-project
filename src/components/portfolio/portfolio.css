@@ -8,6 +8,7 @@ body {
     display: flex;
     margin-top: 50px;
     margin-bottom: 20px;
+    
 }
 
 .cards{
@@ -51,7 +52,6 @@ body {
     width: 350px;
     height: 450px;
     background-image: url('https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535873.jpg?t=st=1726510379~exp=1726513979~hmac=a8f848d1ef6d70070ee82b40b494587cdbb69e684647363ac8a70f4aaf0f879e&w=360');
-    border: 1px solid #2D0D10;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
     border-radius: 17px;
@@ -143,7 +143,6 @@ p {
         width: 360px;
         height: 375px;
         background-image: url('https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535873.jpg?t=st=1726510379~exp=1726513979~hmac=a8f848d1ef6d70070ee82b40b494587cdbb69e684647363ac8a70f4aaf0f879e&w=360');
-        border: 1px solid #2D0D10;
         box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
         backdrop-filter: blur(6px);
         border-radius: 17px;

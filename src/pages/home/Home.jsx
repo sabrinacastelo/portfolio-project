@@ -4,6 +4,7 @@ import Img from '../../assets/churrasco.png'
 import './home.css'
 import About from '../../components/about/About'
 import Carousel from '../../components/carousel/Carousel'
+import Testimonials from '../../components/testimonials/Testimonials'
 
 function Home() {
     return (
@@ -28,6 +29,7 @@ function Home() {
             <Portfolio />
             <Carousel />
             <About />
+            <Testimonials />
         </>
     )
 }

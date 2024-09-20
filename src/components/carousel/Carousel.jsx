@@ -3,24 +3,16 @@ import './carousel.css';
 
 const imageArray = [
   {
-    image: 'https://picsum.photos/id/1/2500/2500',
-    title: '學長歸來, MUST國際音樂創作營開箱文',
-    time: '2019-10-26'
+    image: 'https://picsum.photos/id/1/2500/2500'
   },
   {
-    image: 'https://picsum.photos/id/10/2500/1667',
-    title: '學姊歸來,爽爽開學去',
-    time: '2019-10-26'
+    image: 'https://picsum.photos/id/10/2500/1667'
   },
   {
-    image: 'https://picsum.photos/id/1000/2500/2500',
-    title: '學弟歸來,開心吃東西去',
-    time: '2019-10-26'
+    image: 'https://picsum.photos/id/1000/2500/2500'
   },
   {
-    image: 'https://picsum.photos/id/1003/1181/1772',
-    title: '老師歸來,悲傷挨罵去',
-    time: '2019-10-26'
+    image: 'https://picsum.photos/id/1003/1181/1772'
   }
 ];
 
@@ -55,12 +47,12 @@ const Carousel = () => {
 //   };
 
   return (
-    <div className="carousel">
-      <div className="carousel-slides" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+    <div className="carousels">
+      <div className="carousels-slides" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {imageArray.map((item, index) => (
-          <div className="carousel-slide" key={index}>
+          <div className="carousels-slide" key={index}>
             <img src={item.image} alt={item.title} />
-            <div className="carousel-caption">
+            <div className="carousels-caption">
               {/* <h3>{item.title}</h3>
               <p>{item.time}</p> */}
             </div>
@@ -68,10 +60,10 @@ const Carousel = () => {
         ))}
       </div>
 
-      <button className="carousel-control left" onClick={prevSlide}>
+      <button className="carousels-control left" onClick={prevSlide}>
         &#10094;
       </button>
-      <button className="carousel-control right" onClick={nextSlide}>
+      <button className="carousels-control right" onClick={nextSlide}>
         &#10095;
       </button>
 
