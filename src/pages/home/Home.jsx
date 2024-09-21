@@ -5,6 +5,8 @@ import './home.css'
 import About from '../../components/about/About'
 import Carousel from '../../components/carousel/Carousel'
 import Testimonials from '../../components/testimonials/Testimonials'
+import Botao from '../../components/botao/Botao'
+import Title from '../../components/text/Title'
 
 function Home() {
     return (
@@ -18,9 +20,9 @@ function Home() {
                         <p className='p-2'>
                             A carne mais saborosa que você irá provar!!
                         </p>
-                        <button className="cta">
+                        {/* <button className="cta">
                             <span>Saiba Mais</span>
-                        </button>
+                        </button> */}
 
                     </div>
                     <img className='img' src={Img} alt="" />
@@ -29,7 +31,9 @@ function Home() {
             <Portfolio />
             <Carousel />
             <About />
+            <Title />
             <Testimonials />
+            <Botao />
         </>
     )
 }

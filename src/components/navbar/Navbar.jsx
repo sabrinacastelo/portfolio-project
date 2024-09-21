@@ -1,29 +1,32 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './navbar.css';
 import Logo from './logo.png';
-import { FaBars } from 'react-icons/fa'; // Ícone do menu
-import { FaTimes } from 'react-icons/fa'; // Ícone para fechar
+// import { FaBars } from 'react-icons/fa'; // Ícone do menu
+// import { FaTimes } from 'react-icons/fa'; // Ícone para fechar
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <div className='navbar'>
       <nav>
-        <img src={Logo} alt="Logo" />
-        <div className={`list ${isOpen ? 'open' : ''}`}>
-          <ul className='ul'>
+        <a href="/">
+          <img src={Logo} alt="Logo" />
+        </a>
+        
+        {/* <div className={`list ${isOpen ? 'open' : ''}`}> */}
+          {/* <ul className='ul'>
             <li><a href="/">Inicio</a></li>
-            <li><a href="/">Portfolio</a></li>
+            <li><a href=".portfolio">Portfolio</a></li>
             <li><a href="/">Sobre</a></li>
-            <li><a href="/">Contato</a></li>
-          </ul>
+            <li><a href="/contato">Contato</a></li>
+          </ul> */}
 
-        </div>
+        {/* </div> */}
         <a href="http://wa.link/fvx9hs">
           <button className="Btn">
             <div className="sign">
@@ -38,9 +41,9 @@ function Navbar() {
         </a>
         
         {/* Ícone de menu */}
-        <div className='menu-icon' onClick={toggleMenu}>
+        {/* <div className='menu-icon' onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
-        </div>
+        </div> */}
       </nav>
     </div>
   );

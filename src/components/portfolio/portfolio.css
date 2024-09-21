@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-body {
-    background-color: #2D0D10;
-}
+
 
 .portfolio {
     display: flex;
     margin-top: 50px;
     margin-bottom: 20px;
-    
+    background-color: #2D0D10;
 }
 
 .cards{

@@ -3,16 +3,16 @@ import './carousel.css';
 
 const imageArray = [
   {
-    image: 'https://picsum.photos/id/1/2500/2500'
+    image: 'https://st1.uvnimg.com/3d/28/5601ad8e4d32a7272e3b7a8d8110/churrasco-0522.jpg'
   },
   {
-    image: 'https://picsum.photos/id/10/2500/1667'
+    image: 'https://www.sabornamesa.com.br/media/k2/items/cache/7b98703f48b0025160f2b9b5aad2a874_L.jpg'
   },
   {
-    image: 'https://picsum.photos/id/1000/2500/2500'
+    image: 'https://cdn.tasteatlas.com/images/dishes/3571507db7da42a49b116d559e68fb58.jpg'
   },
   {
-    image: 'https://picsum.photos/id/1003/1181/1772'
+    image: 'https://i.pinimg.com/originals/94/22/29/942229de217b408bc075c4f56d453830.jpg'
   }
 ];
 
